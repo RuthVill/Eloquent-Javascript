@@ -1,1 +1,16 @@
 
+// Write a loop that make seven call to console.log to output the "#" triangle.
+//print out the numbers 1 to 7 
+// create a foor loop that prints from 1 to 7 
+// ones the counter is 7 then it has to stop and print a hashtags from 1 to 7 
+// dont have to write a function, just the loop - maybe 
+
+solution: 
+
+for (let i = "#"; i.length < 8; i+= "#") 
+console.log (i);
+
+
+// don't use curly braces becasue it makes i a local variable
+// if that happens cannot be printed in the console. 
+//use i.length - that way each prints each line + 
