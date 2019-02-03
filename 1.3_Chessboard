@@ -1,0 +1,31 @@
+// Instructions:
+//Write a program that creates a string that represents an 8×8 grid,
+// using newline chacrters to separate lines (\n)
+//At each position of the grid there is either a space or a "#" character. 
+//When you have a program that generates this pattern, define a binding size = 8 
+// change the program so that it works for any size, 
+//outputting a grid of the given width and height.
+
+* The making 
+
+// we have to create 4 spaces and 4 hashtags interchangeable; 
+// 8 X 8 (lines)
+// looping twice 
+// outer loop handles the lines 
+// inner loop handles the character on line 
+
+let getBits = " ";
+let counter = "#"; 
+let result = " "; 
+
+for (let i = 0; i < number ; i++) {
+let lines = number[i]; 
+  for (let y = 0; y < number;y++){
+     let info = space[y]; 
+  }
+  if (line %2 === 0){
+   console.log (counter + getBits + (\n))
+  } else {
+   console.log (getBits + counter + (\n))
+  }
+}
