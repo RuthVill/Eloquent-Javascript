@@ -1,0 +1,43 @@
+1.- one step 
+//  print all the numbers from 1 to 100, with two exceptions. 
+//For numbers divisible by 3, print "Fizz" 
+//and for numbers divisible by 5 print "Buzz" 
+
+2.- step 
+
+//modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 
+(and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
+
+** The making 
+// so we can use the loop to print all the numbers from 1 to 100
+//the use conditionals 
+// if the number is divisible by 3 return Fizz
+// else if number is divisble by 5 print Buzz
+// otherwise print the number 
+
+for (let number = 0; number  < 101 ; number ++){
+if (number % 3 === 0){
+console.log ("Fizz");
+} else if (number % 5 === 0) {
+console.log("Buzz"); 
+} else {
+console.log (number); 
+}
+}
+
+*** the making 2
+
+for (let number = 0; number  < 101 ; number ++){
+if (number % 3 === 0 && number % 5 === 0){
+console.log ("FizzBuzz");
+} else if (number % 3 === 0) {
+console.log("Buzz"); 
+} else if (number % 5 === 0) {
+ console.log ("Fizz");
+}else {
+console.log (number); 
+}
+}
+
+// because we are not creating any function and we are not passing any argument 
+// we just print directly everything in the console. 
